@@ -52,3 +52,4 @@ Please note that while the app is likely to work on other Linux distributions an
 # Contributing
 Contributions are welcome! Please create a pull request with your proposed changes.
 
+![Screenshot_2023-08-16_13_58_23](https://github.com/Coding-Crab/PasswordSaverApp/assets/121975087/c527b4cb-4a50-41cd-a4c6-999bfcc77122)
