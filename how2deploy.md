@@ -17,11 +17,11 @@ This guide explains how to deploy a Python script as a standalone executable app
 
    If your script uses external libraries, make sure they are installed using `pip`. For example:
 
-   ```sh
-   pip install library-name
-   ```
+```sh
+pip install library-name
+```
 
-1. Install PyInstaller
+1. **Install PyInstaller**
 
 PyInstaller is a tool that packages Python scripts into standalone executables. Install it using:
 
@@ -29,24 +29,24 @@ PyInstaller is a tool that packages Python scripts into standalone executables. 
  pip install pyinstaller
 ```
 
-2. Navigate to Script Directory
+2. **Navigate to Script Directory**
 
 Open a terminal and navigate to the directory containing your Python script.
 
-3. Create the Executable
+3. **Create the Executable**
 
 Use PyInstaller to create a standalone executable:
 
 ```sh
-pyinstaller --onefile your_script.py
+ pyinstaller --onefile your_script.py
 ```
 Replace your_script.py with the name of your Python script.
 
-4. Locate the Executable
+4. **Locate the Executable**
 
 After the process is complete, the standalone executable will be in the dist directory within your script's directory.
 
-5. Test the Executable
+5. **Test the Executable**
 
 Run the generated executable to ensure it works:
 
@@ -54,11 +54,11 @@ Run the generated executable to ensure it works:
 ./dist/your_script
 ```
 
-6. Distribute Your App
+6. **Distribute Your App**
 
 Distribute the standalone executable to users. They can run it directly without needing Python or dependencies.
 
-7. Optional: Custom Icon
+7. **Optional: Custom Icon**
 
 To add a custom icon to your desktop shortcut:
 
@@ -69,7 +69,7 @@ To add a custom icon to your desktop shortcut:
 ```sh
 nano ~/Desktop/YourApp.desktop
 ```
-8. Modify the Icon line:
+8. **Modify the Icon line:**
 
 ```sh
 Icon=/path/to/your/icon/icon.png
